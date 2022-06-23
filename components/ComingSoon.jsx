@@ -42,7 +42,7 @@ const ComingSoon = (createDispute) => {
       sx={{ mx: "auto", mb: "2rem", textAlign: "center", maxWidth: "500px" }}
     >
       <h1>{COMING_SOON_TEXT}</h1>
-      <button onClick={() => createDispute("url")}>x</button>
+      <button onClick={() => createDispute("url")}>click me to test dispute creation</button>
       <Image src={comingSoonImage} alt="coming Soon Image" />
     </Box>
   );
